@@ -1,0 +1,13 @@
+			nav {
+			    display: flex;
+			    justify-content: space-around;
+			    align-items: center;
+			    background-color: #0d0620;
+			    color: #fff;
+			    font-weight: 600;
+			    padding: 10px;
+			}
+
+			img {
+			    columns: #fff;
+			}
