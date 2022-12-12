@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 140px;
+    align-items: center;
+    /* display: contents; */
+
+    /* display:inline-flex; */
+    margin: auto 0;
+}
+
+button {
+    height: 25px;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 7px;
+    background-color: #281C11;
+    color: #fff;
+    cursor: pointer;
+    /* width: fit-content; */
+}
+
+.logo {
+    background-color: inherit;
+}
+
+.container {
+    height: 523px;
+    display: grid;
+    /* gap: 10px; */
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 170px);
+    gap: 3px;
+    background-color: #281C11;
+    padding-top: 3px;
+}
+
+.grid2_title {
+    /* background-color: #FB7EB3; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.grid2_title img {
+    width: 50px;
+}
+
+.grid1 {
+    background-color: #fff;
+    grid-column: 1/3;
+
+}
+
+.grid2 {
+    /* width: 90px; */
+    display: grid;
+    grid-column: 3/ 5;
+
+    /* text-align: center; */
+    background-color: #fff;
+    /* padding-left: 70px;
+    padding-right: 50px; */
+    /* background-color: #fff;
+    grid-column: 3/5;
+    /* gap: 10px; */
+}
+
+.grid3 {
+    grid-row: 1/3;
+    grid-column: 5/7;
+    background-color: #fff;
+    /* gap: 10px; */
+}
+
+.grid4 {
+    grid-column: 7/-1;
+    grid-row: 1/3;
+    /* display: grid;
+    align-items: center; */
+    /* text-align: center; */
+    /* background-color: #fff; */
+}
+
+.grid5 {
+    grid-column: 1/3;
+    width: 380px !important;
+    z-index: 100;
+    /* margin-right: 90px; */
+    /* background-color: #fff; */
+}
+
+.grid6 {
+    grid-column: 3/5;
+    background-color: #fff;
+}
+
+.grid7 {
+    grid-column: 1/3;
+    width: 400px !important;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.grid8 {
+    grid-column: 3/ 7;
+    /* width: 500px !important;
+    z-index: 100; */
+    background-color: #fff;
+
+
+    /* grid-row: 3/5; */
+
+    /* gap: 10px; */
+}
+
+.grid9 {
+    /* z-index: 100; */
+    grid-row: 3/4;
+    grid-column: 7/-1;
+    background-color: #fff;
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
