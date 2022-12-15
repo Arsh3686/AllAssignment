@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg1 {
+    background: url("./img/bg/bgf6.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg1 nav {
+    padding-top: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.Checkout {
+    background-color: #B7EAAF;
+}
+
+.Checkout a {
+    color: #000;
+}
+
+.bg2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.bg2p span {
+    font-weight: 500;
+    /* margin-top: 30px; */
+}
+
+.tfs {
+    /* background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%); */
+
+    /* Button Shadow 1 */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    background: #375739;
+
+    /* Button Shadow 1 */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.rgabh {
+    margin: 20px 0;
+    font-weight: 500;
+    color: #B7EAAF;
+}
+
+.plantContainer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+.plantTitle {
+    color: #355342;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+.div1 {
+    width: 250px;
+    height: 200px;
+    background: url("img/bg/Rectangle\ 13.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+}
+
+.div2 {
+    width: 250px;
+    height: 200px;
+    background: url("img/bg/Rectangle\ 13\(1\).png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+}
+
+.div3 {
+    width: 250px;
+    height: 200px;
+    background: url("img/bg/Rectangle\ 13\(2\).png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+}
+
+.div4 {
+    width: 250px;
+    height: 200px;
+    background: url("img/bg/Rectangle\ 13\(3\).png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+}
+
+.ps1 {
+    position: absolute;
+    color: #FFFFFF;
+    top: 5px;
+    left: 10px;
+}
+
+.ps2 {
+    position: absolute;
+
+    bottom: 5px;
+    left: 10px;
+}
+
+.mq {
+    visibility: hidden;
+
+    height: 40px;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    /* padding: 0 8px; */
+    justify-content: space-between;
+}
+
+.hamburger {
+    width: 50px;
+    height: 100%;
+    /* background-color: #fff; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+    top: 38px;
+    z-index: 10000;
+    left: 0;
+    width: 260px;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+.dropDown p {
+    color: #FFF;
+    text-align: center;
+    /* width: 100%; */
+    /* height: fit-content; */
+    padding: 7px 0;
+    /* color: #000; */
+    /* background-color: #fff; */
+}
+
+.line1,
+.line2 {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.nightmode {
+    width: 40px;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.night1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.night2 {
+    background-color: #000;
+    transform: translateX(-10px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* margin-right: 8px; */
+}
+
+@media (max-width:381px) {
+    .bg1 nav {
+        display: none;
+        height: 30px;
+        width: 100%;
+        z-index: 1000;
+        background-color: blue;
+    }
+
+    .mq {
+        visibility: visible;
+    }
+
+    .container4 {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .container4 img {
+        width: 100px;
+    }
+
+    .boxContainer {
+        gap: 70px;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .bg2 {
+        margin-bottom: 40px;
+    }
+
+    .plantContainer {
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+        margin-bottom: 100px;
+
+        /* width: 100%; */
+
+    }
+
+
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+        width: 100%;
+        height: 290px;
+
+    }
+
+    .hamburger:hover .dropDown {
+        display: block;
+    }
+}
