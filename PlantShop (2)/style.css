@@ -389,7 +389,7 @@ a {
     /* margin-right: 8px; */
 }
 
-@media (max-width:381px) {
+@media (max-width:468px) {
     .bg1 nav {
         display: none;
         height: 30px;
