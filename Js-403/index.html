@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			body {
+				width: 100vw;
+				height: 100vh;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+				background-size: contain;
+				background-position: center;
+			}
+			button {
+				border: 0;
+				padding: 7px 14px;
+				border-radius: 7px;
+			}
+			#prev,
+			#next {
+				position: absolute;
+			}
+			#prev {
+				top: 50%;
+				left: 20px;
+			}
+			#next {
+				top: 50%;
+				right: 20px;
+			}
+		</style>
+		<title>Document</title>
+		<script src="index.js" defer></script>
+	</head>
+
+	<body>
+		<img
+			src="https://images.pexels.com/photos/4115029/pexels-photo-4115029.jpeg?auto=compress&cs=tinysrgb&w=400"
+			class="box"
+			id="box"
+		/>
+		<button id="prev" onclick="prev()">prev</button>
+		<button id="next" onclick="next()">next</button>
+	</body>
+</html>
