@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Js-402-02</title>
+		<script>
+			function add() {
+				document.getElementById("h4").innerText = "Image Element Added";
+				document.getElementById("img").src =
+					"https://geekster.in/images/logo.svg";
+			}
+		</script>
+	</head>
+	<body style="text-align: center">
+		<h2 style="color: green">Geekster</h2>
+
+		<h4>Click on the button to add image element</h4>
+		<button onclick="add()">Click here</button>
+		<h4 id="h4"></h4>
+		<img id="img" src="" alt="" />
+	</body>
+</html>
