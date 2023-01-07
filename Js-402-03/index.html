@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Js-402-03</title>
+		<style>
+			input:focus {
+				border: 2px solid aqua;
+			}
+			.body {
+				margin-bottom: 10px;
+				border-radius: 7px;
+
+				background-color: aqua;
+				width: 200px;
+
+				padding: 10px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.body li {
+				color: #000;
+				list-style: none;
+				margin-right: 10px;
+			}
+			button {
+				cursor: pointer;
+				background-color: aqua;
+				border: 0;
+				border-radius: 7px;
+				padding: 5px 10px;
+			}
+		</style>
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<h3>My Shopping list</h3>
+		<div class="container">
+			<label for="">Enter a new item:</label>
+			<input type="text" id="input" value="" />
+			<button onclick="add()">Add Item</button>
+			<hr />
+		</div>
+		<div id="bodys"></div>
+	</body>
+</html>
