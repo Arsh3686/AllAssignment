@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>World's population List Data</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="data.js" defer></script>
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box">
+				<h1>WORLD COUNTRIES LIST</h1>
+				<h2>Total Numbers of countries 193</h2>
+				<h3 id="hide"></h3>
+				<!-- <br /> -->
+				<div class="buttons">
+					<button onclick="startclicked()">STARTING WORD</button>
+					<button onclick="searchclicked()">
+						SEARCH WITH ANY WORD
+					</button>
+					<button onclick="sort()">|A|Z</button>
+				</div>
+				<form action=""></form>
+				<div class="input">
+					<input id="input" onkeyup="detect()" type="text" />
+					<label>🔍</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="box" class="country_container"></div>
+	</body>
+</html>
