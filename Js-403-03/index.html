@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Js-403-03</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="box">
+			<h2>Charles' Tip</h2>
+			<h2>Calculator</h2>
+			<hr />
+			<div class="data">
+				<h4>How much was your bill?</h4>
+				<div class="price">
+					<label>₹</label>
+					<input id="price" type="text" />
+				</div>
+				<br />
+				<h4>How was your service?</h4>
+				<select value id="service">
+					<option value="">Choose an option</option>
+					<option value="30">30% -Outstanding</option>
+					<option value="20">20% -Good</option>
+					<option value="15">15% It was okay</option>
+					<option value="10">10% -Bad</option>
+					<option value="5">5% -Terrible</option>
+				</select>
+				<br />
+				<h4>Persons to prepare the bill?</h4>
+				<div class="people">
+					<input id="people" type="text" /><label>people</label>
+				</div>
+			</div>
+			<button onclick="calc()">CALCULATE</button>
+			<br />
+			<br />
+			<p>TIP AMOUNT</p>
+			<!-- <div> -->
+			<h1 id="amount" class="amount"><span class="rupee">₹</span> 0.0</h1>
+			<!-- </div> -->
+			<span>each</span>
+		</div>
+	</body>
+</html>
