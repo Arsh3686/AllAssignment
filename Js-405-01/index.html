@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>World Countries List</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="data.js" defer></script>
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<h1>World Countries Data</h1>
+		<p class="cc">Currently we have 250 countries</p>
+		<button onclick="getPopulation()">POPULATION</button>
+		<button onclick="getLanguages()">LANGUAGES</button>
+		<p id="stat"></p>
+		<div class="boxContainer">
+			<div id="container" class="container">
+				<div id="rowss" class="row rows">
+					<p class="name" id="name">World</p>
+					<a
+						href="https://en.wikipedia.org/wiki/World"
+						id="width"
+						class="width"
+					>
+						<div class="percent" style="width: 100%"></div>
+					</a>
+					<div class="number">7758589152</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
