@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="data.js" defer></script>
+		<script src="index.js" defer></script>
+		<title>Solar System</title>
+	</head>
+	<body>
+		<br /><br />
+		<h2>Calculate a weight of an object on a planet</h2>
+		<br /><br /><br />
+		<div class="inpcontainer">
+			<input type="text" class="weight" />
+			<select>
+				<option value="0.37">Mercury</option>
+				<option value="0.9">Venus</option>
+				<option value="1">Earth</option>
+				<option value="0.37">Mars</option>
+				<option value="2.58">Jupiter</option>
+				<option value="1.06">Saturn</option>
+				<option value="0.8">Uranus</option>
+				<option value="1.13">Naptune</option>
+			</select>
+			<button onclick="calc()">Calculate the weight</button>
+		</div>
+		<br /><br />
+		<div class="container">
+			<div class="img">
+				<img src="earth_480x320.jpg" alt="" />
+			</div>
+			<div class="details">
+				<h4>The weight of the object on Earth</h4>
+				<br />
+				<div class="weights">7.00 N</div>
+			</div>
+		</div>
+	</body>
+</html>
