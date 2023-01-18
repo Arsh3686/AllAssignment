@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="inpcontainer">
+			<input
+				type="text"
+				id="fname"
+				class="fname"
+				placeholder="first name"
+				onkeyup="check()"
+				important
+			/>
+			<input
+				type="text"
+				class="lname"
+				id="lname"
+				placeholder="last name"
+				onkeyup="check()"
+				important
+			/>
+			<input
+				type="text"
+				class="country"
+				id="country"
+				placeholder="country"
+				onkeyup="check()"
+			/>
+			<input
+				type="number"
+				class="score"
+				id="score"
+				onkeyup="check()"
+				placeholder="score"
+			/>
+			<button type="submit" class="submit" onclick="submit()">
+				submit
+			</button>
+		</div>
+		<p id="err"></p>
+		<div class="container" id="container">
+			<!-- <div class="box">
+				<p>Adit</p>
+				<button>✂️</button>
+				<button>-5</button>
+				<button>+5</button>
+			</div> -->
+		</div>
+	</body>
+</html>
