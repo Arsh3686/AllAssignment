@@ -14,8 +14,9 @@
 		<h2>Calculate a weight of an object on a planet</h2>
 		<br /><br /><br />
 		<div class="inpcontainer">
-			<input type="text" class="weight" />
-			<select>
+			<input type="text" class="weight" id="input" />
+			<select id="select">
+				<option value=""></option>
 				<option value="0.37">Mercury</option>
 				<option value="0.9">Venus</option>
 				<option value="1">Earth</option>
@@ -28,14 +29,18 @@
 			<button onclick="calc()">Calculate the weight</button>
 		</div>
 		<br /><br />
-		<div class="container">
-			<div class="img">
-				<img src="earth_480x320.jpg" alt="" />
-			</div>
-			<div class="details">
-				<h4>The weight of the object on Earth</h4>
-				<br />
-				<div class="weights">7.00 N</div>
+		<div class="containerBox">
+			<div class="container">
+				<div class="img">
+					<img src="earth_480x320.jpg" alt="" id="img" />
+				</div>
+				<div class="details">
+					<h4>
+						The weight of the object on <span id="name">Earth</span>
+					</h4>
+					<br />
+					<div id="weight" class="weights">7.00 N</div>
+				</div>
 			</div>
 		</div>
 	</body>
