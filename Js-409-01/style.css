@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+input {
+	outline: 0;
+	width: 300px;
+	padding: 12px 30px;
+}
+.box {
+	/* width: 80vw; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* background-color: aquamarine; */
+	margin: 18px 0;
+}
+.boxs {
+	/* position: relative; */
+	/* background-color: aquamarine; */
+}
+button {
+	border: 0;
+	padding: 15px 40px;
+	cursor: pointer;
+}
+.box small {
+	text-align: center;
+	color: #ffb843;
+}
+.div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 80px;
+	/* background-color: aqua; */
+}
+label {
+	margin-left: 4px;
+}
