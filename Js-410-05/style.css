@@ -1,0 +1,55 @@
+body {
+	background-color: rgb(255, 157, 149);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	width: 500px;
+	height: 300px;
+	background-color: #ffcac0;
+	box-shadow: 0px 8px 10px 2px rgba(235, 40, 37, 0.8);
+	border-radius: 10px;
+	padding: 10px;
+}
+.container .pquotes {
+	font-size: 26px;
+	font-family: cursive;
+	text-align: center;
+}
+.container .ppoet {
+	font-size: 26px;
+	font-family: cursive;
+	text-align: center;
+	font-weight: lighter;
+}
+.container .pquotes span {
+	color: #b30000;
+	font-size: 40px;
+}
+.img {
+	width: 30px;
+	height: 30px;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.instructions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+button {
+	width: max-content;
+	height: 30px;
+	background: linear-gradient(#ff9d95, #e92a24);
+	color: #fff;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	/* font-family: cursive; */
+	cursor: pointer;
+}
