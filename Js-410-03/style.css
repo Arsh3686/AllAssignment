@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+	background-color: bisque;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+}
+.box img {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+input {
+	width: 300px;
+	border: 0;
+	padding: 5px;
+	border-radius: 6px;
+}
+.container {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	width: 100vw;
+	margin-top: 20px;
+	/* height: 100vh; */
+	align-items: center;
+}
