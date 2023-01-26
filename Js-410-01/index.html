@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="index.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Github Finder</title>
+	</head>
+	<body>
+		<nav>
+			<div class="img">
+				<img width="45" src="github.png" alt="" />
+			</div>
+			<div class="items">
+				<a href="Home">Home</a>
+				<a href="Home">about</a>
+			</div>
+		</nav>
+		<h3>Let's stalk someone on Github</h3>
+		<div class="inpContainer">
+			<input type="text" id="data" />
+			<button class="submit" type="submit" onclick="fetchs()">
+				submit
+			</button>
+			<button class="clear" type="reset" onclick="defaults()">
+				clear
+			</button>
+		</div>
+		<hr />
+		<div class="container" id="container"></div>
+	</body>
+</html>
