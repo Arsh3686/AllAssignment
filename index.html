@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="index.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Github Finder</title>
+	</head>
+	<body id="body">
+		<div class="boxContainer" id="boxContainer">
+			<div class="location" onclick="showOpt()">
+				<p class="chooselocation" id="chooselocation">
+					Select Location
+					<span class="arrow" id="arrow">^</span>
+				</p>
+			</div>
+			<div class="inpContainer" id="inpContainer">
+				<div class="submitinp">
+					<input type="text" id="data" />
+					<button type="submit" onclick="getPlace()">submit</button>
+				</div>
+
+				<button type="submit" onclick="getLocation()">
+					Get Location
+				</button>
+			</div>
+			<div class="container" id="container">
+				<div class="todaydata">
+					<div class="today">
+						<h3>Today</h3>
+						<h5 id="todayDateTime">Tue , 31Jan</h5>
+					</div>
+					<div class="weather">
+						<h1 id="todaydeg">30℃</h1>
+						<img id="todayImg" src="rainy.png" alt="" />
+					</div>
+					<div class="locationplace" id="locationplace">
+						Bhagalpur
+					</div>
+				</div>
+				<div class="basicData">
+					<div class="weatherinfo">
+						<img width="27" src="wind(1).png" alt="" />
+						<p id="windSpeed">23Km/h</p>
+						<p>Wind</p>
+					</div>
+					<div class="weatherinfo">
+						<img src="rainy.png" alt="" />
+						<p id="rainpercentage">23Km/h</p>
+						<p>Rain</p>
+					</div>
+					<div class="weatherinfo">
+						<img src="humidity(1).png" alt="" />
+						<p id="humidity">23Km/h</p>
+						<p>humidity</p>
+					</div>
+				</div>
+				<div class="forecast">
+					<div class="forecastBox">
+						<img
+							id="forecast_data1_img"
+							src="http://openweathermap.org/img/w/10d.png"
+							alt=""
+						/>
+						<p id="forecast_data1_time">10AM</p>
+						<p id="forecast_data1_deg">26℃</p>
+					</div>
+					<div class="forecastBox">
+						<img id="forecast_data2_img" src="" alt="" />
+						<p id="forecast_data2_time">10AM</p>
+						<p id="forecast_data2_deg">26℃</p>
+					</div>
+					<div class="forecastBox">
+						<img id="forecast_data3_img" src="" alt="" />
+						<p id="forecast_data3_time">10AM</p>
+						<p id="forecast_data3_deg">26℃</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="demoContainer" id="demoContainer">
+			<img src="cloudy.png" alt="" />
+			<h1 class="demo_title">Weather <span>News & Feed</span></h1>
+			<p class="demo_detail">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+				Repellendus cumque architecto dignissimos enim voluptates fugiat
+				saepe. Quibusdam perferendis sunt
+			</p>
+			<div class="demoinpContainer">
+				<div class="demoLocation">
+					<input type="text" id="demoInput" />
+					<button
+						class="demo_button"
+						id="demo_button"
+						onclick="demo()"
+					>
+						Get Started
+					</button>
+				</div>
+				<button onclick="getLocation()">Your Location</button>
+			</div>
+		</div>
+	</body>
+</html>
